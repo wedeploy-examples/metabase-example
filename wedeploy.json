@@ -1,0 +1,10 @@
+{
+  "id": "mb",
+  "image": "metabase/metabase",
+  "cpu": 1,
+  "port": 3000,
+  "memory": 1024,
+  "healthCheck": {
+    "url": "localhost:3000"
+  }
+}
