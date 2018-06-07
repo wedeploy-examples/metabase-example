@@ -6,5 +6,8 @@
   "memory": 4096,
   "healthCheck": {
     "url": "localhost:3000"
+  },
+  "volumes": {
+    "data": "/metabase-data"
   }
 }
